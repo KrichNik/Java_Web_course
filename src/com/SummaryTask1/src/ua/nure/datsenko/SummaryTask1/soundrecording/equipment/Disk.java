@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Disk {
+
 	public static final int CAPACITY = 650;
 
 	private static int idCounter;
