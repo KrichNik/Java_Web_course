@@ -1,1 +1,1 @@
-# EPAM JAVA WEB DEVELOPMENT
+# EPAM JAVA Web Development
