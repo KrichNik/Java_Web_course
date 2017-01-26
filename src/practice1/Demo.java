@@ -23,8 +23,6 @@ public class Demo {
 
 		System.out.println("Part5:");
 		Spreadsheet.main();
-
-
 	}
 
 }
