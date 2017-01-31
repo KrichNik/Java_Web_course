@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>0a034546-2e5f-4572-9dbf-7d1cfbf14e3d</OriginalElement>
+  <nodes>
+    <node x="0.0" y="141.0">0a034546-2e5f-4572-9dbf-7d1cfbf14e3d.TABLE:practice10.users</node>
+    <node x="30.0" y="0.0">0a034546-2e5f-4572-9dbf-7d1cfbf14e3d.TABLE:practice10.roles</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="0a034546-2e5f-4572-9dbf-7d1cfbf14e3d.TABLE:practice10.users" target="0a034546-2e5f-4572-9dbf-7d1cfbf14e3d.TABLE:practice10.roles">
+      <point x="0.0" y="-86.0" />
+      <point x="0.0" y="45.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="101.5" y="156.5" />
+  <SelectedNodes>
+    <node>0a034546-2e5f-4572-9dbf-7d1cfbf14e3d.TABLE:practice10.roles</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+

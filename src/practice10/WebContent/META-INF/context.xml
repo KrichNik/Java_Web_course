@@ -1,0 +1,9 @@
+
+<Context>
+    <Resource name="jdbc/practice10" auth="Container" type="javax.sql.DataSource"
+        username="user"
+        password="pass1234"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/practice10?useSSL=false"
+        maxActive="10"/>
+</Context>
