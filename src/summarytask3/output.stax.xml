@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Computer>
+<Device critical="true" price="1000">
+<Name>Matherboard</Name>
+<Origin>China</Origin>
+<Type hasCooler="true" isPeripheral="false">
+<EnergyConsumption>10</EnergyConsumption>
+<Group>IO</Group>
+<Port>USB</Port>
+<Port>HDMI</Port>
+<Port>LPT</Port>
+</Type>
+</Device>
+<Device critical="false" price="500">
+<Name>Printer</Name>
+<Origin>Korea</Origin>
+<Type hasCooler="false" isPeripheral="true">
+<EnergyConsumption>30</EnergyConsumption>
+<Group>MM</Group>
+<Port>USB</Port>
+<Port>LPT</Port>
+</Type>
+</Device>
+<Device critical="true" price="400">
+<Name>Hard-drive</Name>
+<Origin>USA</Origin>
+<Type hasCooler="false" isPeripheral="false">
+<EnergyConsumption>8</EnergyConsumption>
+<Group>IO</Group>
+<Port>USB</Port>
+</Type>
+</Device>
+</Computer>

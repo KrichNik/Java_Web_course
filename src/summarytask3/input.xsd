@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  XML schema -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://nure.ua/datsenko/SummaryTask3/entity" 
+	xmlns:tns="http://nure.ua/datsenko/SummaryTask3/entity">
+
+	<xsd:element name="Computer">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="Device" 
+					type="tns:Device" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:complexType name="Device">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string" />
+			<xsd:element name="Origin" type="xsd:string" />		
+			<xsd:element name="Type" type="tns:Type"/>
+		</xsd:sequence>
+		<xsd:attribute name="price" type="xsd:int" default="0" />	
+		<xsd:attribute name="critical" type="xsd:boolean" default="false" />
+	</xsd:complexType>
+	
+	<xsd:complexType name="Type">
+		<xsd:sequence>
+			<xsd:element name="EnergyConsumption" type="xsd:int" />
+			<xsd:element name="Group" type="xsd:string" />
+			<xsd:sequence>
+				<xsd:element name="Port" type="xsd:string" maxOccurs="3"/>
+			</xsd:sequence>	
+		</xsd:sequence>
+		<xsd:attribute name="isPeripheral" type="xsd:boolean" default="false" />	
+		<xsd:attribute name="hasCooler" type="xsd:boolean" default="false" />
+	</xsd:complexType>
+</xsd:schema>

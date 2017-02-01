@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Input XML document. This XML is valid against Test.xsd XML schema-->
+
+<st3:Computer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:st3="http://nure.ua/datsenko/SummaryTask3/entity"
+		xsi:schemaLocation="http://nure.ua/datsenko/SummaryTask3/entity input.xsd">		
+		
+	<Device price="1000" critical="true">	
+		<Name>Matherboard</Name>
+		<Origin>China</Origin>
+		<Type isPeripheral = "false" hasCooler="true">
+			<EnergyConsumption>10</EnergyConsumption>
+			<Group>IO</Group>
+			<Port>USB</Port>
+			<Port>HDMI</Port>
+			<Port>LPT</Port>
+		</Type>
+	</Device>	
+
+	<Device price="500" critical="false">	
+		<Name>Printer</Name>
+		<Origin>Korea</Origin>
+		<Type isPeripheral = "true" hasCooler="false">
+			<EnergyConsumption>30</EnergyConsumption>
+			<Group>MM</Group>
+			<Port>USB</Port>
+			<Port>LPT</Port>
+		</Type>
+	</Device>	
+
+	<Device price="400" critical="true">	
+		<Name>Hard-drive</Name>
+		<Origin>USA</Origin>
+		<Type isPeripheral = "false" hasCooler="false">
+			<EnergyConsumption>8</EnergyConsumption>
+			<Group>IO</Group>
+			<Port>USB</Port>
+		</Type>
+	</Device>
+</st3:Computer>
