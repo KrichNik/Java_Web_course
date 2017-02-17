@@ -1,2 +1,2 @@
-# EPAM JAVA Web Development cource
+# JAVA Web Development cource
 Autumn, 2016 
